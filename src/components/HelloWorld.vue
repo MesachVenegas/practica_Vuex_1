@@ -1,3 +1,4 @@
+// Plantilla o base con la que se crea un componente.
 <template>
   <div class="hello">
     <h1>{{ msg }}</h1>
@@ -29,7 +30,7 @@
     </ul>
   </div>
 </template>
-
+// Con el script se determina la via de acceso y sus propiedades.
 <script>
 export default {
   name: 'HelloWorld',
